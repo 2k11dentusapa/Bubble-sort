@@ -7,7 +7,7 @@ int x[] = {1, 6, 36, 322, 26, 34, 3456, 63, 7777,5, 44734563, 6775675, 334, 3556
 int n = size(x);
 int c;
 for (int i=0; i< n; i++) {
-  for (int t=0; t< n-1; t++) {
+  for (int t=0; t< n-i-1; t++) {
     if (x[t] > x[t+1]) {
       c = x[t+1];
       x[t+1] = x[t];
