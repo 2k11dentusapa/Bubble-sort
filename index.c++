@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-int x[] = {1, 6, 36, 322, 26, 34, 3456, 63, 7777,5, 44734563, 6775675, 334, 3556, 3, 43556 , 4355456, 435, 4}; /* có thể thay mảng thành mảng của bạn
+int x[] = {1, 6, 36, 322, 26, 34, 3456, 63, 7777,5, 44734563, 6775675, 334, 3556, 3, 43556 , 4355456, 435, 4}; /* có thể thay mảng thành mảng của bạn */
 int n = size(x);
 int c;
 for (int i=0; i< n; i++) {
